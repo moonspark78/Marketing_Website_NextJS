@@ -1,13 +1,14 @@
 import Navbar from "@/components/Navbar";
+import SliderOne from "@/components/Ui/SliderOne";
 import { Spotlight } from "@/components/Ui/Spotlight";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Navbar />
       <Spotlight
-        className="md:flex leflt-80"
+        className=" hidden md:flex leflt-80"
         fill="white"
       />
       <div className="p-4 z-10 mx-auto relative w-full pt-10 md:pt-20 px-2">
@@ -24,6 +25,11 @@ export default function Home() {
         >
           Book a Call
         </Link>
+
+        <div className="w-full pt-20">
+            <SliderOne/>
+        </div>
+
       </div>
     </div>
   );
