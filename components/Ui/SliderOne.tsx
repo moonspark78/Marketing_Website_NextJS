@@ -39,8 +39,8 @@ const SliderOne = () => {
                   priority
                   src="/images/business.jpeg"
                   alt='logo'
-                  width={500}
-                  height={500}
+                  width={400}
+                  height={400}
                   className='rounded-2xl'
                 />
             </div>
@@ -49,10 +49,10 @@ const SliderOne = () => {
             <div className='rounded-md px-2 md:p-10'>
                 <Image
                   priority
-                  src="/images/jod.jpeg"
+                  src="/images/business.jpeg"
                   alt='logo'
-                  width={500}
-                  height={500}
+                  width={400}
+                  height={400}
                   className='rounded-2xl'
                 />
             </div>
@@ -63,8 +63,44 @@ const SliderOne = () => {
                   priority
                   src="/images/coffe.jpeg"
                   alt='logo'
-                  width={500}
-                  height={500}
+                  width={400}
+                  height={400}
+                  className='rounded-2xl'
+                />
+            </div>
+        </>
+        <>
+            <div className='rounded-md px-2 md:p-10'>
+                <Image
+                  priority
+                  src="/images/coffe.jpeg"
+                  alt='logo'
+                  width={400}
+                  height={400}
+                  className='rounded-2xl'
+                />
+            </div>
+        </>
+        <>
+            <div className='rounded-md px-2 md:p-10'>
+                <Image
+                  priority
+                  src="/images/coffe.jpeg"
+                  alt='logo'
+                  width={400}
+                  height={400}
+                  className='rounded-2xl'
+                />
+            </div>
+        </>
+        <>
+            <div className='rounded-md px-2 md:p-10'>
+                <Image
+                  priority
+                  src="/images/coffe.jpeg"
+                  alt='logo'
+                  width={400}
+                  height={400}
                   className='rounded-2xl'
                 />
             </div>
